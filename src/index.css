@@ -1,0 +1,32 @@
+@-webkit-keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+}
+  
+@keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+}
+
+.button {
+    background-image: -webkit-linear-gradient(180deg, yellow, aqua, violet);
+    background-size: 200% auto;
+    animation: gradient_move 2.5s ease-in-out 0s infinite alternate;
+    font-size: 48px;
+}
+
+.startheader {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dog {
+    width: 80%;
+}
+
+.div-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
